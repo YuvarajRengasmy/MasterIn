@@ -1,0 +1,57 @@
+
+.thumbnail-card {
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+  }
+
+  .thumbnail-card:hover .thumbnail-image {
+    /* filter: blur(2px);  */
+    filter:brightness(25%);
+  }
+
+  .thumbnail-image {
+    transition: filter 0.2s ease;
+  }
+
+  .thumbnail-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+    transition: transform 0.5s ease;
+  }
+
+  .video-card{
+    background-color: #ededed !important;
+    cursor: pointer;
+  }
+
+  .playlist-thumbnail-count{
+    background-color: #323433;
+    opacity: 0.8;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    transform: translate(50% -50%);
+    text-align: center;
+  }
+
+  .fixed-right-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px; 
+    overflow-y: auto;
+  }
+
+  @media (max-width: 1053px) {
+    .fixed-right-content {
+      position: static;
+      align-items: center!important;
+      justify-content: center!important;
+      min-width: 100%!important;
+    }
+  }

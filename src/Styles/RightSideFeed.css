@@ -1,0 +1,11 @@
+@media screen and (max-width: 1080px) {
+    .right-side {
+        display: none;
+    }
+    
+}
+
+.menu_bottom{
+    padding-bottom: 5rem!important;
+    overflow-x: hidden;
+}

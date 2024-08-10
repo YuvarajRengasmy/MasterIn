@@ -1,0 +1,9 @@
+.signup-container {
+    background: linear-gradient(177.64deg, rgb(230, 228, 255) -10.26%, rgba(255, 255, 255, 0) 98.02%) center center / cover;
+    height: auto;
+    width: auto;
+}
+
+.signup-button {
+    transition: background-color 1s ease, color 1s ease;
+}

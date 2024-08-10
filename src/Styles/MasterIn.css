@@ -1,0 +1,75 @@
+.home-page .text {
+    background: -webkit-linear-gradient(102deg, #76f, #3e22c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.home-page .btn-1 {
+    background: #ffffff;
+    font-weight: 700;
+    border: none;
+    border: 2px solid rgb(71, 48, 247);
+
+    &:hover {
+        color: #fff;
+        background: rgb(62, 34, 197);
+    }
+}
+
+.home-page .anime-img {
+    animation: floatUpDown 2s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0% {
+        /* Start position */
+        transform: translateY(0);
+    }
+
+    50% {
+        /* Float up halfway */
+        transform: translateY(-20px);
+    }
+
+    100% {
+        /* Return to the start position */
+        transform: translateY(0);
+    }
+}
+
+.card-container .Home-cardImage {
+    background-image: linear-gradient(rgba(212, 212, 255, .5), rgba(255, 255, 255, .25));
+}
+
+.text-color {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(102deg, #76f, #3e22c5);
+    -webkit-background-clip: text;
+}
+
+.home-nav-tabs .nav-pills{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(192, 192, 192);
+    gap: 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5rem;
+    padding: 0.3rem;
+}
+
+.home-nav-tabs nav{
+    width: 250px;
+    margin: auto;
+}
+
+.home-nav-tabs .nav-home .pill-tab.active{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-weight: 500;
+    border-radius: 5rem;
+}
+

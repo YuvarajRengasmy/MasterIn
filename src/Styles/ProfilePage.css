@@ -1,0 +1,142 @@
+.modal-btn .btn-1 {
+    border: 1px solid #000000;
+    font-weight: 500;
+
+    &:hover {
+        border: 1px solid #000000;
+        background: #dcdcdc;
+    }
+
+}
+
+.modal-btn .btn-2 {
+    background: linear-gradient(98.01deg, rgb(119, 102, 255) 0%, rgb(81, 45, 255) 50%, rgb(62, 34, 197) 100%);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+
+    &:hover {
+        color: #fff;
+        background: rgb(62, 34, 197);
+    }
+}
+
+.profile .text-1 {
+    background: #fff;
+    color: grey;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .btn-3 {
+    background: #fff;
+    color: grey;
+    font-weight: 500;
+    border: none;
+    height: 2.5rem;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 0;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .profile-image img {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    .profile-image img {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .profile-image img {
+        width: 80px !important;
+        height: 80px !important;
+        margin-left: -30px !important;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .profile-image img {
+        width: 75px !important;
+        height: 70px !important;
+        margin-left: -15px !important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .profile-image img {
+        width: 100px !important;
+        height: auto;
+        margin-left: -15px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alert-box {
+    background: radial-gradient(69.12% 69.12% at 50% -7.35%, rgba(4, 194, 80, 0.15) 0%, rgba(255, 255, 255, 0) 100%), rgb(255, 255, 255);
+    box-shadow: rgb(228, 244, 230) 0px 2px 24px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 550px) {
+    .card-image img {
+        top: 0;
+        left: 0;
+        translate: 40% 25%;
+        width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .profile-btn .btn {
+        display: none;
+    }
+
+    .btn-group .vr {
+        display: none;
+    }
+}
+
+.image-container #banner {
+    height: 25rem !important;
+    width: 100px !important;
+}

@@ -1,0 +1,11 @@
+export const Login = 'login';
+export const Master = 'master';
+export const Post = 'post';
+export const Notification = 'notification';
+export const Category = 'category';
+export const User = 'user';
+export const Company = 'company';
+export const BookSession = 'bookSession';
+export const PlayList = 'playList';
+export const Dashboard = 'dashboard';
+export const Event = 'event';
